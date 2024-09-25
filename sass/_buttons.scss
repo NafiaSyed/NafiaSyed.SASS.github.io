@@ -1,0 +1,10 @@
+// _buttons.scss
+.add-btn {
+    @include button-style($primary-color, white);
+  }
+  
+  .delete-btn {
+    @include button-style($secondary-color, white);
+    font-size: 0.9em;
+    padding: 5px 10px;
+  }
